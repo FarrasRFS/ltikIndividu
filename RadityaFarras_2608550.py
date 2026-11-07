@@ -60,30 +60,3 @@ while kesempatan > 0:
         else:
             print("Keluar dari menu login.")
     
-# Latihan - 3
-# Aira diminta guru Olahraganya untuk menghitung waktu teman-temannya 
-# mulai berlari dan selesai berlari. 
-def hitungSelisih(jam1, menit1, detik1, jam2, menit2, detik2):
-    mulai = jam1 * 3600 + menit1 * 60 + detik1
-    selesai = jam2 * 3600 + menit2 * 60 + detik2
-
-    selisih = selesai - mulai
-
-    jam = selisih // 3600
-    menit = (selisih % 3600) // 60
-    detik = selisih % 60
-
-    print("Hasil:", jam, "jam -", menit, "menit -", detik, "detik")
-
-
-print("Input mulai :")
-jam1 = int(input("Jam : "))
-menit1 = int(input("Menit : "))
-detik1 = int(input("Detik : "))
-
-print("\nInput selesai :")
-jam2 = int(input("Jam : "))
-menit2 = int(input("Menit : "))
-detik2 = int(input("Detik : "))
-
-hitungSelisih(jam1, menit1, detik1, jam2, menit2, detik2)
