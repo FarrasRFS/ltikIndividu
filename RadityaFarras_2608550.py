@@ -59,4 +59,5 @@ while kesempatan > 0:
             print("Sisa kesempatan :", kesempatan)
         else:
             print("Keluar dari menu login.")
-    
+
+# Latihan 3   
