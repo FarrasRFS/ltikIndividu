@@ -60,4 +60,5 @@ while kesempatan > 0:
         else:
             print("Keluar dari menu login.")
 
-# Latihan 3   
+# Latihan 3
+# Contoh   
